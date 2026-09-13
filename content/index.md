@@ -1,6 +1,5 @@
 ---
-title: Welcome to Quartz
+title: A random blog with random stuff
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+You have found my little blog! There's not much here yet, but I plan to keep posting here. Start by reading some of the articles showcased in the panel to the left!

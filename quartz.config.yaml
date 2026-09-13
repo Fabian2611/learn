@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: A little blog about whatever comes to mind
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
@@ -31,13 +31,13 @@ configuration:
         highlight: rgba(143, 159, 169, 0.15)
         textHighlight: "#fff23688"
       darkMode:
-        light: "#161618"
-        lightgray: "#393639"
-        gray: "#646464"
-        darkgray: "#d4d4d4"
+        light: "#0f0e10"
+        lightgray: "#2d2a2d"
+        gray: "#545454"
+        darkgray: "#c9c9c9"
         dark: "#ebebec"
-        secondary: "#7b97aa"
-        tertiary: "#84a59d"
+        secondary: "#74aeaf"
+        tertiary: "#79afa1"
         highlight: rgba(143, 159, 169, 0.15)
         textHighlight: "#b3aa0288"
 plugins:
@@ -133,7 +133,7 @@ plugins:
   - source: "@quartz-community/og-image"
     enabled: true
   - source: "@quartz-community/cname"
-    enabled: true
+    enabled: false
   - source: "@quartz-community/canvas-page"
     enabled: true
   - source: "@quartz-community/content-page"
@@ -141,14 +141,14 @@ plugins:
   - source: "@quartz-community/folder-page"
     enabled: true
   - source: "@quartz-community/tag-page"
-    enabled: true
+    enabled: false
   - source: "@quartz-community/explorer"
-    enabled: true
+    enabled: false
     layout:
       position: left
       priority: 50
   - source: "@quartz-community/graph"
-    enabled: true
+    enabled: false
     layout:
       position: right
       priority: 10
@@ -192,7 +192,7 @@ plugins:
       priority: 30
       group: toolbar
   - source: "@quartz-community/reader-mode"
-    enabled: true
+    enabled: false
     layout:
       position: left
       priority: 35
@@ -234,10 +234,10 @@ plugins:
   - source: "@quartz-community/recent-notes"
     enabled: true
     options:
-      title: Recent Notes
+      title: Latest articles
       limit: 5
       linkToMore: false
-      showTags: true
+      showTags: false
     layout:
       position: left
       priority: 25
@@ -259,7 +259,6 @@ plugins:
       includeAll: false
       includedProperties:
         - description
-        - tags
         - aliases
       excludedProperties: []
       hidePropertiesView: false

@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: fabian2611.github.io/learn
+  baseUrl: noonebuthere.github.io/learn
   ignorePatterns:
     - private
     - templates
@@ -208,7 +208,7 @@ plugins:
     options:
       provider: giscus
       options:
-        repo: Fabian2611/learn
+        repo: noonebuthere/learn
         repoId: R_kgDOUZCDtw
         category: Announcements
         categoryId: DIC_kwDOUZCDt84DFgkS

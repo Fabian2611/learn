@@ -208,10 +208,10 @@ plugins:
     options:
       provider: giscus
       options:
-        repo: TODO:username/repo-name
-        repoId: TODO:your-repo-id
+        repo: Fabian2611/learn
+        repoId: R_kgDOUZCDtw
         category: Announcements
-        categoryId: TODO:your-category-id
+        categoryId: DIC_kwDOUZCDt84DFgkS
         mapping: url
         strict: true
         reactionsEnabled: true
@@ -270,6 +270,15 @@ plugins:
       position: beforeBody
       priority: 15
       display: all
+  - source: github:quartz-community/comments
+    enabled: false
+    options:
+      provider: giscus
+      options: {}
+    order: 50
+    layout:
+      position: afterBody
+      priority: 10
 layout:
   groups:
     toolbar:

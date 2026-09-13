@@ -1,0 +1,11 @@
+{
+  "version": "1.0.0",
+  "plugins": {
+    "comments": {
+      "source": "github:quartz-community/comments",
+      "resolved": "https://github.com/quartz-community/comments.git",
+      "commit": "47bd29211301d08daa481727b2395d55c1207155",
+      "installedAt": "2026-09-13T14:04:18.016Z"
+    }
+  }
+}
